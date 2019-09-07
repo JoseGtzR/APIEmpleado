@@ -8,5 +8,7 @@ namespace ModEmployee.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ModEmployee.Models.Employee> Employees { get; set; }
     }
 }
