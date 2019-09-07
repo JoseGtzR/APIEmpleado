@@ -13,11 +13,11 @@ namespace ModEmployee.Models
         [Required]
         public string Name { get; set; }
         [Required]
+        [Range(1, 100000)]
         public int Salary { get; set; }
         [Required]
-        [Range(1, 100000)]
         public DateTime Birthday { get; set; }
-        [Required]
+
         public string Recomendation { get; set; }
     }
 }
